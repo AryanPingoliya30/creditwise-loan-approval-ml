@@ -28,7 +28,6 @@ Environment: Jupyter Notebook
 ```
 CreditWise/
 ├── credit_wise.ipynb # Complete ML pipeline (EDA, training, evaluation)
-├── Problem_Statement.pdf # Problem description
 └── README.md # Project documentation
 ```
 
