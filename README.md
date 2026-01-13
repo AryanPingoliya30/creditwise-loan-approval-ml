@@ -1,106 +1,69 @@
-CreditWise Loan Approval Prediction System
+Here is your **CreditWise repo README in the same style/format as MoneyMorph** 👇
+(You can directly paste this into `README.md`)
 
-This project implements a Machine Learning–based loan approval prediction system for a fictional financial institution, SecureTrust Bank, to automate and improve the accuracy of loan approval decisions.
+---
 
-The system analyzes historical applicant data and predicts whether a loan should be Approved or Rejected, helping reduce manual bias and financial risk.
+# 🏦 CreditWise
 
-🚀 Project Overview
+CreditWise is a machine learning–based loan approval prediction system built using Python and Scikit-learn. It analyzes historical applicant data to predict whether a loan should be approved or rejected, helping automate credit risk assessment with high accuracy and reliability.
 
-Financial institutions receive hundreds of loan applications daily. Manual verification is time-consuming and error-prone.
-This project builds an intelligent classification model that:
+## ✨ Features
 
-Learns patterns from past loan data
+📊 Predicts loan approval using supervised ML classification
+🧠 Compares multiple models: Logistic Regression, KNN, Naive Bayes
+🏆 Selects best model based on Precision and performance metrics
+📈 Achieves high Accuracy, Precision, Recall, and F1-score
+🧪 Evaluated using Confusion Matrix and classification reports
 
-Predicts loan approval status
+## 🛠️ Tech Stack
 
-Compares multiple ML algorithms
+Machine Learning: Python, Scikit-learn
+Data Processing: Pandas, NumPy
+Visualization: Matplotlib, Seaborn
+Environment: Jupyter Notebook
 
-Selects the best-performing model based on evaluation metrics
+## 📊 Model Performance (Best Model: Naive Bayes)
 
-🧠 Models Implemented
+* Accuracy: 88%
+* Precision: 78.46%
+* Recall: 83.60%
+* F1-Score: 80.95%
 
-The following machine learning models were trained and evaluated:
+## 📁 Project Structure
 
-Logistic Regression
+CreditWise/
+├── credit_wise.ipynb      # Complete ML pipeline (EDA, training, evaluation)
+├── Problem_Statement.pdf # Problem description
+└── README.md             # Project documentation
 
-K-Nearest Neighbors (KNN)
+## 🚀 How to Run Locally
 
-Naive Bayes
+Clone the repository:
 
-After comparison, Naive Bayes was selected as the best model based on Precision and overall classification performance.
+```
+git clone https://github.com/AryanPingoliya30/creditwise-loan-approval-ml.git
+cd creditwise-loan-approval-ml
+```
 
-📊 Performance (Best Model)
+Open the notebook:
 
-Accuracy: 88%
+```
+jupyter notebook credit_wise.ipynb
+```
 
-Precision: 78.46%
+Run all cells to train models and view evaluation metrics.
 
-Recall: 83.60%
+## ⚠️ Note
 
-F1-Score: 80.95%
+Ensure required Python libraries (pandas, numpy, sklearn, matplotlib, seaborn) are installed before running the notebook.
 
-Evaluation was done using:
+## 📌 About
 
-Confusion Matrix
+CreditWise is an intelligent loan approval prediction system that leverages machine learning to automate decision-making for financial institutions. Multiple models are trained and evaluated, and the best-performing model (Naive Bayes) is selected based on precision and overall classification performance.
 
-Precision, Recall, F1-score
+## 👨‍💻 Author
 
-Accuracy metrics
-
-🛠️ Tech Stack
-
-Python
-
-Pandas, NumPy
-
-Scikit-learn
-
-Matplotlib / Seaborn (for visualization)
-
-Jupyter Notebook
-
-📁 Dataset Features
-
-The dataset includes attributes such as:
-
-Applicant & Co-applicant Income
-
-Credit Score
-
-Employment Status
-
-Loan Amount & Term
-
-Debt-to-Income Ratio
-
-Property Area
-
-Savings & Collateral Value
-
-Loan Purpose
-
-Target: Loan Approved (1) / Rejected (0)
-
-📌 Workflow
-
-Data Cleaning & Preprocessing
-
-Feature Encoding & Scaling
-
-Train-Test Split
-
-Model Training (LR, KNN, Naive Bayes)
-
-Model Evaluation & Comparison
-
-Best Model Selection based on Precision
-
-📈 Future Improvements
-
-Hyperparameter tuning
-
-Ensemble models (Random Forest, XGBoost)
-
-Deployment as a REST API
-
-Integration with a web-based loan portal
+Aryan Pingoliya
+B.Tech CSE, MNIT Jaipur
+GitHub: AryanPingoliya30
+LinkedIn: Aryan Pingoliya
