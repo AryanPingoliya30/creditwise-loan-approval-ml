@@ -25,11 +25,12 @@ Environment: Jupyter Notebook
 * F1-Score: 80.95%
 
 ## 📁 Project Structure
-
+```
 CreditWise/
 ├── credit_wise.ipynb # Complete ML pipeline (EDA, training, evaluation)
 ├── Problem_Statement.pdf # Problem description
 └── README.md # Project documentation
+```
 
 ## 🚀 How to Run Locally
 
