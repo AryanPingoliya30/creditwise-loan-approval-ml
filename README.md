@@ -27,9 +27,9 @@ Environment: Jupyter Notebook
 ## 📁 Project Structure
 
 CreditWise/
-├── credit_wise.ipynb      # Complete ML pipeline (EDA, training, evaluation)
+├── credit_wise.ipynb # Complete ML pipeline (EDA, training, evaluation)
 ├── Problem_Statement.pdf # Problem description
-└── README.md             # Project documentation
+└── README.md # Project documentation
 
 ## 🚀 How to Run Locally
 
