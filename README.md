@@ -1,8 +1,3 @@
-Here is your **CreditWise repo README in the same style/format as MoneyMorph** 👇
-(You can directly paste this into `README.md`)
-
----
-
 # 🏦 CreditWise
 
 CreditWise is a machine learning–based loan approval prediction system built using Python and Scikit-learn. It analyzes historical applicant data to predict whether a loan should be approved or rejected, helping automate credit risk assessment with high accuracy and reliability.
